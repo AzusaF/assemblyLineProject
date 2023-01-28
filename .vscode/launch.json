@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": ["Stations1.txt", "Stations2.txt", "CustomerOrders.txt", "AssemblyLine.txt"],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/az/Desktop/Seneca/Semester3/OOP345/OOP345Works/PJ/MS3",
+      "program": "/Users/az/Desktop/Seneca/Semester3/OOP345/OOP345Works/PJ/MS3/ms",
+      "MIMode": "lldb"
+    }
+  ]
+}
