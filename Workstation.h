@@ -1,20 +1,3 @@
-/* ------------------------------------------------------
-Project Project Milestone 3
-Module: Workstation
-Filename: Workstation.h
-Student Name: Azusa Fukuda
-Student ID: 109697219
-Section: NCC
-Email Address: afukuda@myseneca.ca
-Revision History
------------------------------------------------------------
-Initials    Date           Reason
-A.F.        12/02/2022     Made the code working
------------------------------------------------------------
-I confirm that I am the only author of this file and the 
-content was created entirely by me.
------------------------------------------------------------*/
-
 #ifndef SDDS_WORKSTATION_H
 #define SDDS_WORKSTATION_H
 #include "CustomerOrder.h"

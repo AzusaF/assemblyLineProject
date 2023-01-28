@@ -1,20 +1,3 @@
-/* ------------------------------------------------------
-Project Project Milestone 3
-Module: Workstation
-Filename: Workstation.cpp
-Student Name: Azusa Fukuda
-Student ID: 109697219
-Section: NCC
-Email Address: afukuda@myseneca.ca
-Revision History
------------------------------------------------------------
-Initials    Date           Reason
-A.F.        12/02/2022     Made the code working
------------------------------------------------------------
-I confirm that I am the only author of this file and the 
-content was created entirely by me.
------------------------------------------------------------*/
-
 #include <iostream>
 #include "Workstation.h"
 #include "Station.h"
