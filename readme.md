@@ -1,49 +1,14 @@
+# To the fellow students, 
+In adherence to the tenets of academic integrity, let us refrain from procuring code from external sources, and instead, independently generate our own solutions.
+
 # Project Overview
 
-The purpose of this term project is to put your C++ Object Oriented skills to practice by developing a simulation of an assembly line with any number of stations. A line with 3 Stations is illustrated in the figure below.
+The purpose of this project is to put C++ Object Oriented skills to practice by developing a simulation of an assembly line with any number of stations. A line with 3 Stations is illustrated in the figure below.
 
 ![Assembly Line](assemblyline.jpg)
 
-The assembly line in your solution consists of a set of workstations each of which holds a set of stock items, which are specific to the station. A line manager moves customer orders along the line filling the orders at each station, as requested. Each customer order consists of a list of items that need to be filled. Each station processes a queue of orders by filling the next order in the queue if that order requests the station's item and that item is in stock. The line manager keeps moving the customer orders from station to station until all orders have been processed. Any station that has used all the items in stock cannot fill any more orders. At the end of the line orders are either completed or incomplete due to a lack of inventory at one or more stations. The simulator lists the completed orders and those that are incomplete once the line manager has finished processing all orders.
+The assembly line in the solution consists of a set of workstations each of which holds a set of stock items, which are specific to the station. A line manager moves customer orders along the line filling the orders at each station, as requested. Each customer order consists of a list of items that need to be filled. Each station processes a queue of orders by filling the next order in the queue if that order requests the station's item and that item is in stock. The line manager keeps moving the customer orders from station to station until all orders have been processed. Any station that has used all the items in stock cannot fill any more orders. At the end of the line orders are either completed or incomplete due to a lack of inventory at one or more stations. The simulator lists the completed orders and those that are incomplete once the line manager has finished processing all orders.
 
-The project is divided into 3 milestones to help guide you through implementation, debugging and execution. This application is more complex than any one of the workshops and it is recommended that you plan your work accordingly.
-
-
-
-## Project Deadlines
-
-The deadlines for the project's milestones are on Saturday evenings at midnight EDT (see the schedule below).
-
-| Milestone | Date    |
-| --------- | ------- |
-| #1        | Nov 19  |
-| #2        | Nov 26  |
-| #3        | Dec 03  |
-
-
-All files that you submit (`*.h` and `*.cpp`) should contain the following comment at the top (with your information filled):
-```cpp
-// Name:
-// Seneca Student ID:
-// Seneca email:
-// Date of completion:
-//
-// I confirm that I am the only author of this file
-//   and the content was created entirely by me.
-```
-
-**Milestone #3** can be submitted after December 3 until December 13, with a penalty of 10% for each day late. After December 13 2022, the submission process is considered closed.
-
-- submissions received on Dec  4 2022 can receive **max 90%**;
-- submissions received on Dec  5 2022 can receive **max 80%**;
-- submissions received on Dec  6 2022 can receive **max 70%**;
-- submissions received on Dec  7 2022 can receive **max 60%**;
-- submissions received on Dec  8 2022 can receive **max 50%**;
-- submissions received on Dec  9 2022 can receive **max 40%**;
-- submissions received on Dec 10 2022 can receive **max 30%**;
-- submissions received on Dec 11 2022 can receive **max 20%**;
-- submissions received on Dec 12 2022 can receive **max 10%**;
-- submissions received on Dec 13 2022 can receive **max  0%**;
 
 
 **Submission of a working copy of this project is mandatory!** Students who don't submit a complete working project, cannot pass this course. A project is considered complete if all three milestones have been submitted before submission closes and the implementation follows the requirements.
